@@ -1,8 +1,6 @@
-
 # FFUF Web Application Testing
 ## Overview
 This repository demonstrates the use of `ffuf`, a web fuzzing tool, to identify vulnerabilities in web applications. Techniques covered include directory fuzzing, page fuzzing, recursive fuzzing, sub-domain fuzzing, vhost fuzzing, parameter fuzzing, and value fuzzing. Below is the consolidated workflow demonstrating these techniques.
-
 
 ## Topics Covered
 1. **Directory Fuzzing**  
