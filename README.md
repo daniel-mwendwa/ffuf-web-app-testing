@@ -34,11 +34,6 @@ This repository demonstrates the use of `ffuf`, a web fuzzing tool, to identify 
 - **SecLists:** A collection of multiple types of lists used during security assessments, such as directory lists, sub-domain names, and parameter names.
 
 ## Example Commands
-### Directory Fuzzing
-```bash
-ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ \
--u http://SERVER_IP:PORT/FUZZ
-
 ```bash
 # Directory Fuzzing
 ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ \
